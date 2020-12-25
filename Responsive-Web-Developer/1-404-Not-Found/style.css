@@ -1,0 +1,134 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	padding: 0;
+	height: 0;
+}
+
+body{
+	font-style: normal;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.left{
+	text-align: center;
+}
+
+img{
+	 width: 80%;
+	 padding: 3em 1em;
+
+}
+
+.right{
+	padding: 0 10px;
+}
+
+
+
+/* Typography */
+header .title{
+	font-family: Inconsolata;
+	font-size: 24px;
+	padding: 10px;
+}
+
+h2{
+	font-family: Space Mono;
+	font-weight: bold;
+	font-size: 48px;
+	letter-spacing: -0.05em;
+	color: #333333;
+
+	margin-bottom: 30px;
+}
+
+.main-content{
+	font-family: Space Mono;
+	font-size: 18px;
+	letter-spacing: -0.035em;
+	font-weight: normal;
+	color: #4F4F4F;
+
+	margin-bottom: 60px;
+}
+
+.footer{
+	text-align: center;
+	font-family: Space Mono;
+	font-style: normal;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 60px;
+	padding: 10px 0;
+}
+
+.button{
+	background-color: #333;
+	text-decoration: none;
+	font-family: Space Mono;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 21px;
+	color: #fff;
+	width: 216px;
+	height: 68px;
+}
+
+
+
+@media only screen and (min-width: 750px) {
+	main{
+		flex-direction: row;
+		height: 83vh;
+	}
+
+	img{
+		max-width: 90%;
+		padding: 3em 3em;
+	}
+
+	.footer{
+		margin-top: 20px;
+	}
+
+	.left{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.right{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.main-title{
+		width: 90%;
+	}
+
+	.main-content{
+		width: 53%;
+	}
+
+}
+
+
+
+
+
+

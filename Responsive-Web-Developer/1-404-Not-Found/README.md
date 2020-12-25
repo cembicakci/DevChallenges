@@ -55,5 +55,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@cembicakci](https://{github.com/cembicakci})
-- Twitter [@cmbicakci](https://{twitter.com/cmbicakci})
+- GitHub [@cembicakci](https://github.com/cembicakci)
+- Twitter [@cmbicakci](https://twitter.com/cmbicakci)

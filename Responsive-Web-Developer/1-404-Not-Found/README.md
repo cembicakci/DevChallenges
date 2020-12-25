@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://cembicakci.github.io/DevChallenges/Responsive-Web-Developer/1-404-Not-Found/">
       Demo
     </a>
     <span> | </span>

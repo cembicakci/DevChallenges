@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/cembicakci/DevChallenges/blob/main/Responsive-Web-Developer/1-404-Not-Found/image/desktop.png?raw=true https://github.com/cembicakci/DevChallenges/blob/main/Responsive-Web-Developer/1-404-Not-Found/image/mobile.png?raw=true)
+![screenshot](https://github.com/cembicakci/DevChallenges/blob/main/Responsive-Web-Developer/1-404-Not-Found/image/desktop.png?raw=true)
 
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:

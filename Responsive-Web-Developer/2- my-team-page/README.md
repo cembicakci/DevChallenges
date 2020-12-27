@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">my-team-page</h1>
+<h1 align="center">My-Team-Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -34,7 +34,7 @@
 
 ![screenshot](https://github.com/cembicakci/DevChallenges/blob/main/Responsive-Web-Developer/2-%20my-team-page/images/desktop.png)
 
-You can see my demo here: https://cembicakci.github.io/DevChallenges/Responsive-Web-Developer/2-%20my-team-page/
+You can see my demo here:  https://cembicakci.github.io/DevChallenges/Responsive-Web-Developer/2-%20my-team-page/
 
 ### Built With
 
@@ -58,6 +58,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@cembicakci](https://github.com/cembicakci)
+- Twitter [@cmbicakci](https://twitter.com/cmbicakci)

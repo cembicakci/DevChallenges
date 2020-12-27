@@ -1,0 +1,167 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+
+*/
+
+body{
+	background-color: #FAFAFA;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	color: #000000;
+}
+
+img{
+	width: 100%;
+}
+
+.container{
+	width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.Header{
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-start;
+	padding: 110px 0 96px 0;
+}
+
+.Header-main{
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -0.045em;
+}
+
+.Header-content{
+	padding-left: 20px;
+}
+
+.Header-title{
+	
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+
+}
+
+.Header-subtitle{
+	max-width: 439px;
+
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+
+}
+
+.middle{
+	transform: translateY(25%);
+}
+
+main{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+
+
+.images-group{
+	position: relative;
+	width: 25%;
+	margin-right: 20px;
+	margin-bottom: 80px;
+}
+
+.title{
+	position: absolute;
+	transform: rotate(90deg);
+	transform-origin: 55% 35%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+
+
+	font-family: 'PT Serif', serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.name{
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+	line-height: 27px;
+}
+
+footer{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #A9A9A9;
+	text-align: center;
+	padding: 60px 0 30px 0;
+}
+
+@media (max-width: 650px){
+	body{
+		overflow-x: hidden;
+	}
+
+	.container{
+		padding-right: 15px;
+	}
+
+	.Header{
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 70px 0;
+
+	}
+
+	.Header-content{
+		padding-left: 0;
+	}
+
+	.Header-main{
+		margin-bottom: 40px;
+	}
+
+	.Header-title{
+		margin-bottom: 20px;
+	}
+
+	.images-group{
+		width: 40%;
+		margin-right: 0;
+	}
+
+	.middle{
+		transform: translateY(0);
+	}
+
+	.right{
+		transform: translateY(25%);
+	}
+
+}

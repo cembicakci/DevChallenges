@@ -38,6 +38,7 @@
 
 ![screenshot](https://github.com/cembicakci/DevChallenges/blob/main/Responsive-Web-Developer/6-checkout-page/images/desktop.png?raw=true)
 
+Live: https://cembicakci.github.io/DevChallenges/Responsive-Web-Developer/6-checkout-page/
 
 ## Features
 

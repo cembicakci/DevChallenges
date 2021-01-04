@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor; 
+
+  color: #828282;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+/**** Header ****/
+header{
+	font-size: 18px;
+	line-height: 44px;
+	color: #4E5150;
+	padding-top: 60px;
+}
+
+/**** Checkout ****/
+
+.checkout .form-header{
+	position: relative;
+}
+
+.checkout{
+	width: 50%;
+	margin-right: 20px
+}
+
+.checkout label{
+	font-size: 12px;
+	line-height: 15px;
+	color: #4F4F4F;
+
+}
+
+.checkout input,
+.checkout select{
+	width: 100%;
+	height: 40px;
+	padding-left: 40px;
+	border: 1px solid #828282;
+	border-radius: 12px;
+
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.checkout #check{
+	width: 20px;
+}
+
+
+.checkout .form-title{
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.checkout .flex{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.checkout .flex .mg{
+	margin-right: 40px;
+}
+
+.checkout .flex div{
+	width: 100%;
+}
+
+
+
+.checkout .checkbox{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 0;
+}
+
+.checkout .checkbox label{
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+button{
+
+	width: 150px;
+	border: none;
+	background: #F2994A;
+	border-radius: 12px;	
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	cursor: pointer;
+
+	padding: 15px 0 10px;
+
+	margin-left: 65%;
+}
+
+/**** Section ****/
+.section{
+	display: flex;
+	justify-content: space-between;
+
+	margin-bottom: 100px;
+}
+
+
+/**** Card ****/
+.card{
+	width: 400px;
+	height: 500px;
+	background: #F2F2F2;
+	border-radius: 12px;
+	margin-top: 60px;
+}
+
+.product{
+	display: flex;
+
+	padding: 30px 30px 0 30px;
+}
+
+.product img{
+	width: 40%;
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+.product .information{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+
+.product h4{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4E5150;
+	padding-bottom: 10px;
+}
+
+.product .price{
+	display: flex;
+}
+
+.product .price p{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #F2994A;
+	padding-right: 10px;
+}
+
+.product .price span{
+	font-size: 12px;
+	line-height: 15px;
+	text-decoration-line: line-through;
+	color: #4E5150;
+
+}
+
+
+.product .qty{
+	width: 80%;
+	height: 52px;
+	border: 1px solid #828282;
+	border-radius: 12px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: auto;
+
+}
+
+.product .minus,
+.product .plus{
+	width: 22px;
+	height: 22px;
+	background: #E0E0E0;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.item-main{
+	margin-top: 60px;
+}
+
+.item{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 30px 0 30px;
+	padding-top: 10px;
+	border-top: 1px solid #BDBDBD;
+
+}
+
+.item-name{
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+
+}
+
+.item-price{
+	font-size: 14px;
+	line-height: 17px;
+	text-align: right;
+	color: #333333;
+}
+
+
+
+/**** footer ****/
+footer{
+	font-size: 14px;
+	line-height: 17px;
+	color: #A9A9A9;
+	text-align: center;
+	padding: 20px 0;
+}
+
+@media(max-width: 900px) {
+	body{
+		overflow-x: hidden;
+	}
+
+	.section{
+		flex-direction: column;
+	}
+
+	.section .card{
+		order: 1;
+		margin-top: 30px;
+		padding-bottom: 30px;
+		width: 100%;
+		height: auto;
+
+	}	
+
+	.section .checkout{
+		order: 2;
+		width: 100%;
+	}
+
+	.checkout .flex .mg{
+		margin-right: 10px;
+	}
+
+	button{
+		margin-left: 50%;
+	}
+
+	input[type='text']{
+		font-size: 12px;
+	}
+
+}

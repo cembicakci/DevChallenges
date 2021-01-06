@@ -32,6 +32,10 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
+## Overview
+
+![screenshot](https://github.com/cembicakci/DevChallenges/blob/main/Responsive-Web-Developer/7-edie-homepage/images/img-edie.png?raw=true)
+
 
 ### Built With
 
